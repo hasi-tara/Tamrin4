@@ -1,10 +1,10 @@
 
 import {juices} from '../juices/juices.js';
 import ProductItems from "./ProductItems.jsx";
-
+import '../styles/Products.css'
 const Products = () => {
     return (
-            <div>
+            <div className="container">
                 {juices.map(({id,name,ingredients,price,image}) =>
                     <ProductItems
                         key={id}
@@ -13,6 +13,7 @@ const Products = () => {
                         ingredients={ingredients}
                         price={price}
                         image={image}
+                        className="item"
                     />
                 )}
             </div>

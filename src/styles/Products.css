@@ -1,0 +1,10 @@
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+padding: 0 100px;
+  }
+.container p{
+    font-size: 3rem;
+    color: #3d5a23;
+}
