@@ -1,3 +1,4 @@
+import '../styles/NotFound.css'
 const NotFound = () => {
   return (
     <div className="notfound">

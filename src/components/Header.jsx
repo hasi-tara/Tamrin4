@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { FaUser, FaShoppingCart } from "react-icons/fa";
+import '../styles/Header.css'
 const Header = () => {
   return (
     <div className="header">

@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import Input from "./Input";
-// import { useNavigate } from "react-router-dom";
-
+import '../styles/Form.css'
 function Form() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-//   const navigate=useNavigate();
+
   const handleNameChange = (event) => {
     setName(event.target.value);
   };

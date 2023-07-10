@@ -1,6 +1,6 @@
 import React from "react";
 import Form from "./Form";
-
+import '../styles/Contact.css'
 function ContactUs() {
   return (
     <div className="contact">

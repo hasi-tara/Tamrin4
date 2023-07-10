@@ -1,0 +1,30 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+  }
+  .input label {
+    color: #3d5a23;
+    font-size: 1.8rem;
+    margin-top: 44px;
+  }
+  .form input {
+    border: none;
+    width: 440px;
+    height: 94px;
+    background-color: #f9f9f9;
+    border-bottom: 3px solid #3d5a23;
+    font-size: 1.6rem;
+    color: #3d5a23;
+    outline: none;
+  }
+  .form input:hover {
+    border-bottom: 3px solid #fa9878;
+  }
+  

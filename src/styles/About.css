@@ -1,0 +1,41 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    background-color: #f9f9f9;
+    padding: 72px 132px 244px 132px;
+    justify-content: center;
+    border-bottom: 1px solid #3d5a23;
+  }
+  .about h1 {
+    font-size: 2.2rem;
+    color: #3d5a23;
+  }
+  .about h2 {
+    line-height: 56px;
+    margin: 20px 0;
+    word-spacing: 8px;
+    font-size: 4.2rem;
+    color: #3d5a23;
+    width: 440px;
+  }
+  .about p {
+    line-height: 28px;
+    font-size: 2rem;
+    color: #183004;
+    width: 440px;
+  }
+  .about-images {
+    position: relative;
+    width: 50%;
+  }
+  .about img {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  .about img:nth-last-child(1) {
+    top: 104px;
+    right: 144px;
+  }

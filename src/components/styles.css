@@ -1,4 +1,4 @@
-.header {
+/* .header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -50,8 +50,8 @@
   background-color: #d7e9c7;
   padding: 4px;
   border-radius: 8px;
-}
-.home {
+} */
+/* .home {
   display: flex;
   flex-direction: row;
   background-color: #f9f9f9;
@@ -88,8 +88,8 @@
 }
 .home button:hover {
   background-color: #183004;
-}
-.about {
+} */
+/* .about {
   display: flex;
   flex-direction: row;
   background-color: #f9f9f9;
@@ -129,8 +129,8 @@
 .about img:nth-last-child(1) {
   top: 104px;
   right: 144px;
-}
-.contact {
+} */
+/* .contact {
   display: flex;
   flex-direction: row;
   background-color: #f9f9f9;
@@ -162,15 +162,15 @@
   text-decoration: none;
   color: #3d5a23;
   font-size: 2rem;
-}
-.form {
+} */
+/* .form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-top: 60px;
-}
-.input {
+} */
+/* .input {
   display: flex;
   flex-direction: column;
 }
@@ -191,9 +191,9 @@
 }
 .form input:hover {
   border-bottom: 3px solid #fa9878;
-}
+} */
 
-.contact button {
+/* .contact button {
   background-color: rgb(226, 225, 225);
   color: #3d5a23;
   font-size: 1.7rem;
@@ -205,8 +205,8 @@
 }
 .contact button:hover {
   background-color: white;
-}
-.login{
+} */
+/* .login{
     border-bottom: 1px solid #3d5a23;
     padding-bottom: 100px;
 }
@@ -222,8 +222,8 @@
   }
   .login button:hover {
     background-color: white;
-  }
-  .notfound{
+  } */
+  /* .notfound{
     display: flex;
     flex-direction: column;
     color: #3d5a23;
@@ -238,8 +238,8 @@
   .notfound h1{
     font-size: 4.4rem;
     margin-top: 120px;
-  }
-  .footer{
+  } */
+  /* .footer{
     padding: 0 120px 20px 120px;
     background-color: #E2E2F2;
     display: flex;
@@ -264,4 +264,4 @@
   }
   .footer-icon{
     font-size: 24px;
-  }
+  } */

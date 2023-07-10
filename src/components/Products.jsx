@@ -13,7 +13,6 @@ const Products = () => {
                         ingredients={ingredients}
                         price={price}
                         image={image}
-                        className="item"
                     />
                 )}
             </div>
