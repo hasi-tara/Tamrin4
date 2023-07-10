@@ -1,14 +1,21 @@
-import {Link} from 'react-router-dom';
-const Products=()=>{
-    return(
-        <div>
-            <h1>product page</h1>
-            <ul>
-              <Link to='/products/1'><li>product1</li></Link>  
-              <Link to='/products/2'><li>product2</li></Link> 
-              <Link to='/products/3'><li>product3</li></Link> 
-            </ul>
-        </div>
-    )
-}
+
+import {juices} from '../juices/juices.js';
+import ProductItems from "./ProductItems.jsx";
+
+const Products = () => {
+    return (
+            <div>
+                {juices.map(({id,name,ingredients,price,image}) =>
+                    <ProductItems
+                        key={id}
+                        id={id}
+                        name={name}
+                        ingredients={ingredients}
+                        price={price}
+                        image={image}
+                    />
+                )}
+            </div>
+    );
+};
 export default Products;

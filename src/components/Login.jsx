@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Input from "./Input";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-function Form() {
+function Login() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [password, setpassword] = useState("");
 
-//   const navigate=useNavigate();
+  const navigate=useNavigate();
   const handleNameChange = (event) => {
     setName(event.target.value);
   };
@@ -16,21 +16,21 @@ function Form() {
     setEmail(event.target.value);
   };
 
-  const handleMessageChange = (event) => {
-    setMessage(event.target.value);
+  const handlePasswordChange = (event) => {
+    setpassword(event.target.value);
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
     setName("");
     setEmail("");
-    setMessage("");
-    // navigate("/");
+    setpassword("");
+    navigate("/");
   };
 
   return (
     <div>
-      <form className="form" onSubmit={handleSubmit}>
+      <form className="form login" onSubmit={handleSubmit}>
         <Input
           type="text"
           value={name}
@@ -44,16 +44,16 @@ function Form() {
           onChange={handleEmailChange}
         />
         <Input
-          type="text"
-          value={message}
-          label={"Message"}
-          onChange={handleMessageChange}
+          type="password"
+          value={password}
+          label={"Password*"}
+          onChange={handlePasswordChange}
         />
 
-        <button type="submit">Submit</button>
+        <button type="submit">LogIn</button>
       </form>
     </div>
   );
 }
 
-export default Form;
+export default Login;
