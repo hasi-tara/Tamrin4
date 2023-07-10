@@ -9,7 +9,7 @@ import ProductsDetails from './components/ProductsDetails';
 import Login from './components/Login';
 import NotFound from './components/NotFound';
 import Footer from './components/Footer';
-import './components/styles.css'
+
 
 const App = () => {
   return (

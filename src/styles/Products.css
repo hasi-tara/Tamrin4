@@ -6,9 +6,7 @@ padding: 0 100px;
 border-bottom: 1px solid #3d5a23;
   }
 .container p{
-    font-size: 3rem;
+    font-size: 2.4rem;
     color: #3d5a23;
-}
-.container-products{
-border-radius: 90px;
+    font-weight: 600;
 }

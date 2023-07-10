@@ -1,0 +1,27 @@
+.item-image{
+    margin-top: 52px;
+    box-shadow: 2px 2px 5px 2px #D9D8DD;
+    border-radius: 24px;
+}
+.item-image:hover{
+    color: #fa9878;
+}
+.item-card h3{
+    font-size: 3rem;
+    color: #1e2b11;
+    text-shadow: 1px 1px 8px #3d5a23;
+    padding: 12px 0;
+}
+.item-card button{
+    padding: 12px 24px;
+       background-color: #3d5a23;
+    color: white;
+    font-size: 1.6rem;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0 52px 0;
+}
+  .item-card button:hover {
+    background-color: #fa9878;
+  }

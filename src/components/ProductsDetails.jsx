@@ -1,31 +1,37 @@
 import React from 'react';
 import {Link, useParams} from "react-router-dom";
 import {juices} from '../juices/juices.js';
-
+import '../styles/ProductDetails.css'
 const ProductsDetails = () => {
     const {id} = useParams();
     const juice = juices.find(item => item.id == id);
     return (
         
-            <div>
+            <div className='details'>
+            
+                    <img src={juice.image} alt="JuiceDetails"/>
+                
                 <div>
+                    <h2>Product Info</h2>
+                    <p> Name: </p>
                     <h3>
-                      Name:  {juice.name}
+                      {juice.name}
                     </h3>
                     <p >
-                    Ingredients:  {juice.ingredients}
+                    Ingredients: 
                     </p>
-                    <span>
-                      Price  {juice.price}
-                    </span>
+                    <p>
+                    {juice.ingredients}
+                    </p>
+                    <p>
+                      Price:  {juice.price}
+                    </p>
                     <button>Buy</button>
-                    <Link to="/shop">
-                        Back to Shop
+                    <Link className='back-to' to="/shop">
+                        <p>Click here to go back to Shop...</p>
                     </Link>
                 </div>
-                <div>
-                    <img src={juice.image} alt="JuiceDetails"/>
-                </div>
+
             </div>
     
     );
